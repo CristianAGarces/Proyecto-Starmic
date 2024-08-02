@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrate</title>
+    <link class="iconPaguina" rel=" icon " type="image/png " href="Imagenes/Starmiclogo2.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf041359e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Estilos/registro.css">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <main class="form-side">
+            <a href="index.html" title="Logo">
+                <img src="Imagenes/Starmic.jpg" alt="Laplace Logo" class="logo">
+            </a>
+            <div class="prueba">
+            <form class="my-form">
+                <div class="form-welcome-row">
+                    <h1>Bienvenido! &#128079;</h1>
+                    <h2>Registrate con tu cuenta!</h2>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title="Use Apple">
+                        <img src="Imagenes/apple.png" alt="Apple">
+                        Ingresa con Apple
+                    </a>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title="Use Google">
+                        <img src="Imagenes/google.png" alt="Google">
+                        Ingresa con Google
+                    </a>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title="Use facebook">
+                        <img src="Imagenes/facebook.png" alt="facebook">
+                        Ingresa con Facebook
+                    </a>
+                </div>
+                <div class="divider">
+                    <div class="divider-line"></div>
+                    o
+                    <div class="divider-line"></div>
+                </div>
+                <div class="intermedio"> Ingresa tus datos de registro</div>
+                <div class="text-field">
+                    <label><i class="fa-solid fa-signature"></i> Nombre y Apellido</label>
+                    <input type="name" id="name" name="name" autocomplete="off" placeholder="Juan Andres" required>
+                </div>
+                <div class="text-field">
+                    <label><i class="fa-solid fa-building"></i> Nombre de la compañia *Omita este paso si es consultar o empresario*</label>
+                    <input type="company" autocomplete="off" placeholder="Emprendimiento S.A" required>
+                </div>
+                <div class="text-field">
+                    <label><i class="fa-solid fa-user-doctor" style="color: #000000;"></i>Seleccione su rol</label>
+                    <form class="listaDesplegable">
+                        <select class="menuDesplegable">
+                            <option class="disable selected">Seleccione su rol</option>
+                            <option>Empresario</option>
+                            <option>Emprendedor</option>
+                            <option>Consultor</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="text-field">
+                    <label for="email"><i class="fa-regular fa-envelope"></i>  Email</label>
+                    <input type="email" id="email" name="email" autocomplete="off" placeholder="emprende2354@example.com" required>
+                    <div class="error-message">Formato de Email</div>
+                </div>
+                <div class="text-field">
+                    <label for="password"><i class="fa-solid fa-lock"></i> Contraseña</label>
+                    <input id="password" type="password" name="password" placeholder="Tu contraseña" title="Minimum 6 characters at 
+                                                        least 1 Alphabet and 1 Number"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                    <div class="error-message">Minimo 6 caracteres, 2 numeros y 1 simbolo especial</div>
+                </div>
+                    <input class="my-form__button" type="submit" value="Inicia">
+
+                <div class="my-form__actions">
+                    <div class="my-form__row">
+                        <span>Ya tienes una cuenta?</span>
+                        <a href="loggin.html" title="Reset Password">
+                            Inicia Seccion
+                        </a>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </main>
+        <aside class="info-side">
+            <div class="blockquote-wrapper">
+                <img src="Imagenes/Starmiclogo2.gif" alt="Returns" class="returns">
+                
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 120%;
+    min-width: 18rem;
+    overflow: auto;
+}
+
+main {
+    height: 100%;
+}
+
+/*? footer containers */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+*::selection {
+    background: rgba(255, 255, 255, 0.728);
+}
+
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 31px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.footer-logo-column {
+    padding-right: 8%;
+}
+
+.footer-logo {
+    margin-bottom: 1.5rem;
+    width: 14rem;
+    border-radius: 22px;
+}
+
+/*? socials */
+.social-wrapper {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    stroke: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links svg:hover {
+    stroke: darkgray;
+}
+
+.social-links .textIcon{
+    text-align: center;
+}
+
+.textIcon:hover{
+    color: darkgray;
+}
+
+.social-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style-type: none;
+}
+
+/* columns with links */
+
+.link-columns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.link-columns>div {
+    flex-grow: 1;
+    display: flex;
+    gap: 2rem;
+}
+
+.link-columns>div>section {
+    color: white;
+    min-width: 8rem;
+    width: 50%;
+}
+
+.despejar{
+    padding-right: 25px;
+}
+
+.link-columns ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.link-columns ul a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+}
+
+.link-columns ul>li>a:hover {
+    color: darkgray;
+}
+
+.link-columns h3 {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.textIcon{
+    font-size: 11px;
+}
+
+/*? Footer bottom */
+.footer-bottom {
+    margin-top: 8rem;
+    width: 100%;
+    color: white;
+}
+
+.footer-bottom-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2.5rem 1rem;
+    border-top: 1px solid white;
+}
+
+.footer-bottom small {
+    display: inline;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.footer-bottom>small {
+    width: 100%
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inicia Seccion</title>
+    <link class="iconPaguina" rel=" icon " type="image/png " href="Imagenes/Starmiclogo2.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bf041359e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Estilos/registro.css">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <main class="form-side">
+            <a href="index.html">
+                <img src="Imagenes/Starmic.jpg" class="logo"></a>
+            </a>
+            <form class="my-form">
+                <div class="form-welcome-row">
+                    <h1>Bienvenido! &#128079;</h1>
+                    <h2>Inicia Seccion en tu cuenta!</h2>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title="Use Apple">
+                        <img src="Imagenes/apple.png" alt="Apple">
+                        Ingresa con Apple
+                    </a>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title="Use Github">
+                        <img src="Imagenes/google.png" alt="Google">
+                        Ingresa con Google
+                    </a>
+                </div>
+                <div class="socials-row">
+                    <a href="https://web.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr" title="Use faceboob">
+                        <img src="Imagenes/facebook.png" alt="facebook">
+                        Ingresa con Facebook
+                    </a>
+                </div>
+                <div class="divider">
+                    <div class="divider-line"></div>
+                    o
+                    <div class="divider-line"></div>
+                </div>
+                <div class="text-field">
+                    <label for="email"><i class="fa-regular fa-envelope"></i>  Email</label>
+                    <input type="email" id="email" name="email" autocomplete="off" placeholder="emprende2354@example.com" required>
+                    <div class="error-message">Formato de Email</div>
+                </div>
+                <div class="text-field">
+                    <label for="password"><i class="fa-solid fa-lock"></i> Contraseña</label>
+                    <input id="password" type="password" name="password" placeholder="Tu contraseña" title="Minimum 6 characters at 
+                                                        least 1 Alphabet and 1 Number"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                    <div class="error-message">Minimo 6 caracteres, 2 numeros y 1 simbolo especial</div>
+                </div>
+                <button class="my-form__button" type="submit">
+                    Inicia
+                </button>
+                <div class="my-form__actions">
+                    <div class="my-form__row">
+                        <span>Aun no tienes una cuenta?</span>
+                        <a href="singup.html" title="Reset Password">
+                            Registrate
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <aside class="info-side">
+            <div class="blockquote-wrapper">
+                <img src="Imagenes/Starmiclogo2.gif" alt="Returns" class="returns">
+                
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
